@@ -1,0 +1,127 @@
+*{
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(201, 215, 230);
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family:sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+img{
+    width:60%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.aside{
+    background-color:rgb(209, 190, 219);
+    flex: 30%;
+    padding: 10%;
+    height: 350px;
+}
+.aside img {
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+.section{
+    background-color: #779c9b;
+    flex: 70%;
+    padding: 10px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjetas .card {
+    background-color: rgb(193, 178, 233);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotteds rgb(121, 14, 243);
+    border-radius: 30px;
+    box-shadow: 7px 7px #000;
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: 700px / 800px;
+
+}
+.tarjetas .card .contenido  img{
+    display: block;
+    margin: auto;
+    width: 45%;
+
+}
+
+.tarjetas .card .contenido .centrar{
+    text-align: center;
+    color: rgb(91, 11, 240);
+    border-bottom: 2px solid rgb(13, 14, 13);
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.cuadro{
+    display: flex;
+    background-color: #966877;;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cuadro .imagen{
+    flex: 30%;
+    width: 70%;
+
+}
+.cuadro .texto{
+    flex: 80%;
+}
+h2{
+    font-family: fantasy;
+    text-align: center;
+}
+
+.contactos{
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    float: right;
+    display: flex;
+    padding: 6px;
+    
+
+}
+.siguenos{
+    text-align: center;
+    padding: 15px 0;
+}
+
